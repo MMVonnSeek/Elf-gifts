@@ -101,7 +101,7 @@ while running:
 
     pontos_font = pygame.font.SysFont("any_font", 50)
     pontos_block = pontos_font.render(f"Pontos: {pontos}", False, (255, 0, 0))
-    screen.blit(pontos_block, (50, HEIGHT - 50))
+    screen.blit(pontos_block, (10, HEIGHT - 590))
 
     pygame.display.flip()
     clock.tick(30)
