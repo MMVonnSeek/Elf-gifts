@@ -6,6 +6,12 @@ from typing import Tuple
 WIDTH = 800
 HEIGHT = 600
 
+# Crie a tela
+window = pygame.display.set_mode((WIDTH, HEIGHT))
+
+# Defina o ícone da janela
+pygame.display.set_icon(pygame.image.load("logoIMS.png"))
+
 gift_countdown = 2500
 gift_interval = 100
 GIFT_COUNT = 10
