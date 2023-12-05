@@ -36,6 +36,14 @@ pygame.init()
 screen = pygame.display.set_mode([WIDTH, HEIGHT])
 pygame.mouse.set_visible(False)
 clock = pygame.time.Clock()
+
+# Inicialização do mixer para áudio
+pygame.mixer.init()
+# Carregar a música de fundo
+pygame.mixer.music.load('C:/Users/Aluno/Documents/GitHub/Elf-gifts/Rockin.wav')
+# Reproduzir a música de fundo indefinidamente (-1 para loop)
+pygame.mixer.music.play(-1)
+
 ADDGIFT = pygame.USEREVENT + 1
 pygame.time.set_timer(ADDGIFT, gift_countdown)
 gift_list = pygame.sprite.Group()
