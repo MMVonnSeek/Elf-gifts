@@ -70,14 +70,14 @@ while running:
     if len(gift_list) >= GIFT_COUNT:
         running = False
 
-    # Remove the section that fills the background with a specific color
+    # Remova a seção que preenche o fundo com uma cor específica
 
-    # Draw your own background here
-    # Load your custom background image
+    # Desenhe seu próprio plano de fundo aqui
+    # Carregue sua imagem de fundo personalizada
     background_image = pygame.image.load('background.png')
-    # Scale the image to fit the screen
+    # Dimensione a imagem para caber na tela
     background_image = pygame.transform.scale(background_image, (WIDTH, HEIGHT))
-    # Blit the background image to the screen
+    # Coloque a imagem de fundo na tela
     screen.blit(background_image, (0, 0))
 
     for gift in gift_list:
