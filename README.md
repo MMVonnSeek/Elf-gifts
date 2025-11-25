@@ -59,7 +59,6 @@ Execute o arquivo principal:
 python elf-gifts.py
 
 ## Autor
-
 Max Muller
 Professor de Informática e desenvolvedor com foco em ensino de programação, projetos educacionais e criação de jogos simples e interativos para formação de novos talentos em tecnologia.
 
